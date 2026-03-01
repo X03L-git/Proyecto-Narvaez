@@ -13,7 +13,7 @@ Para instalar Narvaez se han descargar todos los ficheros en el repositorio, y, 
 
 ## Requirimientos para la IA integrada
 
-Naravez requiere de la IA "Mozart", siendo su principal función cambiar la notación musical a formato capaz de ser entendido por el lenguaje.
+Narvaez requiere de la IA "Mozart", siendo su principal función cambiar la notación musical a formato capaz de ser entendido por el lenguaje.
 
 
 
@@ -21,6 +21,7 @@ Naravez requiere de la IA "Mozart", siendo su principal función cambiar la nota
 Requerimos que todos los contribuyentes reconozcan que este proyecto esta está establecido mediante una licencia Apache 2.0 y acepten todos sus términos. 
 
 [Contribuyentes]: ./CONTRIBUTING.md
+
 
 
 
