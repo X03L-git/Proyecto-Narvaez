@@ -23,18 +23,13 @@ typedef struct lista {
 //todo Output example: d1/4 e1/32 e2/2 e1/8 e1/16 e1/32 {e1/4 g1/4} e1/4 e1/8 c1/8 g1/32 c1/8 e1/32
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
+
 #define MAX 1000
 
 
 // Funciones:
 // tokenizar(text)
 // Output example: d1/4 e1/32 e2/2 e1/8 e1/16 e1/32 {e1/4 g1/4} e1/4 e1/8 c1/8 g1/32 c1/8 e1/32
-
-#include "Algoritmo.h"
 
 
 
@@ -106,9 +101,9 @@ int noteDetector(char note, char sharp)
 
             int counterChords = 0;
 
-            bool calambreenlapija = false; // Le ha dado un calambre en la pija
+            bool calambre = false; // Le ha dado un calambre
 
-            while (calambreenlapija != true) // Bucle para mirar cada posición por si hubiera notas
+            while (calambre != true) // Bucle para mirar cada posición por si hubiera notas
             {
                 aux1 = tokens[total_pos];
                 aux2 = tokens[total_pos + 1];
@@ -264,7 +259,7 @@ int noteDetector(char note, char sharp)
 
                 if (total_pos == strlen(tokens)) // Si llegamos al final del output, parar el bucle
                 {
-                    calambreenlapija = true;
+                    calambre = true;
                 }
 
                 total_pos = total_pos + 1;
