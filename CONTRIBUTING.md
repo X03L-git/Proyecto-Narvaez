@@ -1,20 +1,18 @@
-Contributing to Forge
-=====================
+Contribución al Proyecto Narváez
+================================
 
-1) Keep patches to Minecraft classes together. If you need a lot of things done, you may either add to relevant forge classes or make a new class. Try not to spread out your patches across multiple disjoint lines, as this makes maintenance of your patches difficult.
+1) Para ejecutar este progrma conversor de notación musical a tablatura de guitarra es necesario, primeramente, el entrenamiento de una IA con un dataset adjunto en el propio fichero "src" y en caso de no hacerlo, el usuario puede recurrir a una modelo ya entrenado adjunto en Drive: https://drive.google.com/file/d/1ZSml0ocyJwNz4odIg8PD8inTYlvqYF2_/view?usp=drive_link.
 
-2) TODO: Test Mods
+2) El codigo ha de empezar a ejecutarse en la terminal indicando el enrutamiento de las imagenes que se quieren introducir y el enrutamiento de donde se encontrará el txt que será utilizado por la segunda parte del codigo, que estaría formada por lenguaje C y devolvería lo que el usuario quería. 
 
-3) Follow the code style of the class you're working in (braces on newlines & spaces instead of tabs in Forge classes, inline brackets in patches, etc).
-
-For more information, refer to [the wiki][Wiki].
+3) Antes de ejecutar el programa, es necesario tener en cuenta que en esta IA, en concreto, no está entrenada con suficientes fotos para lograr una mayor precisión, como consecuencia, en algunas ocasiones, no toma los valores adecuados.
 
 
-Contributor License Agreement
-=============================
-- You grant Forge a license to use your code contributed to the primary codebase (everything **not** under patches) in Forge, under the LGPLv2.1 license.
-- You assign copyright ownership of your contributions to the patches codebase (everything under patches) to Forge, where it will be licensed under the LGPLv2.1 license.
 
-"Forge" is Forge Development LLC, a legally incorporated entity in Oregon, USA.
 
-[Wiki]: https://github.com/MinecraftForge/MinecraftForge/wiki/If-you-want-to-contribute-to-Forge
+
+Acuerdo de licencia de colaborador
+==================================
+- Apache 2.0 garantiza protección legal tanto para los mantenedores como para los usuarios del proyecto.
+- Usted asigna la propiedad de los derechos de autor de sus contribuciones al código base de los parches, donde estará bajo la licencia de Apache 2.0.
+
